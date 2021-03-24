@@ -6,3 +6,126 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+}
+
+.header {
+  font-size: large;
+  float: right;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-menu {
+  background-color: white;
+  overflow: hidden;
+  float: inline-end;
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  float: right;
+  display: flex;
+}
+.nav-menu li {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  align-content: center;
+  font-size: 30px;
+}
+/*.nav-menu li:not(:last-child) {
+    border-right: 4px solid #fff;
+  }
+  */
+.hero-image {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw; /* viewport-width: 100% da quantidade de pixels disponíveis na tela */
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.whats h3 {
+  font-size: 30px;
+  color: black;
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.whats hr {
+  width: 20%;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.music-icon img,
+.hd-icon img,
+.devices-icon img {
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-content: space-between;
+}
+.music-icon h1,
+.hd-icon h1,
+.devices-icon h1 {
+  font-size: 30px;
+  color: green;
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+  margin-top: 10px;
+  flex-direction: row;
+}
+.music-icon h3,
+.hd-icon h3,
+.devices-icon h3 {
+  font-size: 15px;
+  color: black;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 10px;
+  margin-top: 10px;
+}
